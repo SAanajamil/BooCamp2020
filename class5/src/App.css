@@ -1,0 +1,38 @@
+.container{
+  max-width: 400px;
+  min-height: 450px;
+  background-color: #efefef;
+  box-shadow: 0 0 10px grey;
+  margin:0 auto;
+  margin-top: 50px;
+  padding: 15px 50px;
+}
+.balance{
+  margin: -25px;
+  margin-left: auto;
+}
+.container_expense{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: 0 0 10px grey;
+  
+}
+.transaction-list{
+  margin:0;
+  padding: 0;
+  
+}
+.transaction-list > li{
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 10px grey;
+  padding: 5px 2px;
+  background-color: white;
+  margin:5px 0;
+}
+.transaction-from input{
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px;
+}
